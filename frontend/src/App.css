@@ -1,0 +1,59 @@
+.App {
+  background-color: #F1F7ED; /* Light background color */
+  /* background-color: #F1F7ED; Light background color */
+  height: 100%;
+  width: 100%;
+}
+
+.form {
+  background-color: rgba(36, 62, 54, 0.5); /* Dark grey background color */
+  padding: 20px;
+  border-radius: 5px;
+  width: 40%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the form */
+  text-align: center;
+}
+
+.form h1 {
+  color: #243E36; /* Dark text color */
+  margin-bottom: 15px;
+  font-size: large;
+  font-weight: 200;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column; /* Display form elements vertically */
+}
+
+.form label {
+  color: #243E36; /* Dark text color */
+  text-align: right;
+  margin-right: 8rem;
+}
+
+.form input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #C2A83E;
+  color: #495057;
+}
+
+.form button {
+  padding: 8px 12px;
+  border-radius: 3px;
+  border: none;
+  background-color: #7CA982; /* Green button color */
+  color: #fff; /* White text color */
+  cursor: pointer;
+  margin: 20px 15px;
+  margin-left: 14rem;
+  width: 13rem;
+  align-items: center;
+}
+
+.form button:hover {
+  background-color: #5C8D6B; /* Darker green on hover */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
